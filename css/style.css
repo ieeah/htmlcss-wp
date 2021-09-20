@@ -5,15 +5,34 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
-    color: #898989;
+}
+
+/* TYPO STYLES */
+
+* {
+    color: #a8a8a8;
+    font-size: 15px;
 }
 
 h1, h5 {
     color: black;
 }
 
+h1 {
+    font-weight: 700;
+    font-size: 2.1em;
+}
+
 h3 {
     color: white;
+    font-weight: 400;
+    font-size: 1.9em;
+}
+
+h5 {
+    font-size: 1em;
+    font-weight: normal;
+    margin-bottom: 5px;
 }
 
 /* UTILITY */
@@ -50,6 +69,9 @@ h3 {
 }
 
 /* HEADER */
+header {
+    margin-top: 30px;
+}
 
 header > img {
     width: 150px;
@@ -59,9 +81,22 @@ header > img {
     display: inline-block;
     list-style-type: none;
     text-transform: uppercase;
+    text-decoration: none;
+    margin-right: 5px;
 }
+
+.main_nav > ul > li:last-child {
+    margin-right: 0px;
+}
+
 .main_nav > ul > li > a {
     text-decoration: none;
+    font-weight: 500;
+}
+
+.main_nav > ul > li > a:hover {
+    color: black;
+    font-weight: 500;
 }
 
 /* HERO */
@@ -136,7 +171,7 @@ main {
 }
 
 .cols_grid h5 {
-    margin: 20px 0 15px;
+    margin: 20px 0 5px;
 }
 
 .cols_grid {
@@ -153,6 +188,7 @@ footer {
     text-align: center;
     line-height: 100%;
     color: black;
+    font-size: 14px;
 }
 
 footer span {
