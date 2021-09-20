@@ -146,4 +146,11 @@ main {
 footer {
     text-align: center;
     line-height: 100%;
+    color: black;
+}
+
+footer span {
+    color: red;
+    font-size: 1.5em;
+    vertical-align: baseline;
 }
