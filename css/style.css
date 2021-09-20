@@ -109,12 +109,16 @@ section.hero {
     background-position: center;
 }
 
-section.hero > div {
+section.hero > div{
     color: white;
     position: absolute;
     padding: 70px 40px;
     left: 0;
     bottom: 0;
+}
+
+.hero_title {
+    width: 50%;
 }
 
 section.hero p {
