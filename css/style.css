@@ -14,6 +14,14 @@
     clear: both;
 }
 
+.pl-10px {
+    padding: 0 10px;
+}
+
+.mb-30px {
+    margin-bottom: 30px;
+}
+
 /* LAYOUT */
 
 .container {
@@ -23,12 +31,19 @@
     padding: 50px 7%;
 }
 
-header {
-    background-color: black;
-    height: 200px;
+/* HEADER */
+
+header > img {
+    width: 150px;
 }
 
-header, section {
+.main_nav > ul > li {
+    display: inline-block;
+    list-style-type: none;
+    text-transform: uppercase;
+}
+
+section {
     margin-bottom: 30px;
 }
 
